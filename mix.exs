@@ -14,8 +14,8 @@ defmodule Sitemap.Mixfile do
      description: @description,
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
-     package: package,
-     deps: deps,
+     package: package(),
+     deps: deps(),
      source_url: "https://github.com/ikeikeikeike/sitemap"
    ]
   end
